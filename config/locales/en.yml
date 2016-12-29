@@ -21,13 +21,23 @@
 
 en:
   sample_app: "Sample app"
+  home: "Home"
+  help: "Help"
+  log_in: "Log In"
+  railstutorial: "Ruby on Rails tutorial"
+  about: "About"
+  contact: "Contact"
+  news: "News"
   static_pages:
     about:
       title: "About"
       this_is_the_about_page: "This is the about page"
     home:
       title: "Home"
-      this_is_the_home_page: "This is the home page"
+      welcome: "Welcome to the Sample app"
+      this_is_the_home_page: "This is the homepage for the Ruby on Rails Sample app"
+      sign_up_now: "Sign Up Now!"
+      rails_logo: "Rails Logo"
     help:
       title: "Help"
       this_is_the_help_page: "This is the help page"
