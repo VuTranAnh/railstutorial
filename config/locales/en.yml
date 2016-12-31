@@ -24,6 +24,11 @@ en:
   home: "Home"
   help: "Help"
   log_in: "Log In"
+  users_link: "Users"
+  account: "Account"
+  profile: "Profile"
+  settings: "Settings"
+  log_out: "Log out"
   railstutorial: "Ruby on Rails tutorial"
   about: "About"
   contact: "Contact"
@@ -44,12 +49,22 @@ en:
   users:
     new:
       sign_up: "Sign up"
+    create:
+      welcome_message: "Welcome to the Sample app"
+    show:
+      page_notfound: "The page you were looking for doesn't exsist"
     form:
       create: "Create my account"
       confirmation: "Confirmation"
-  flash:
-    success: "Welcome to the sample app"
-    danger: "The page you were looking for doesn't exist"
   shared:
     error_messages:
       form_contain: "The form contains"
+  sessions:
+    new:
+      title: "Log in"
+      new_user: "New user?"
+      sign_up: "Sign up now!"
+    create:
+      invalid_login: "Invalid email/password combination"
+    destroy:
+      logout_success: "You have been logged out successfully"
