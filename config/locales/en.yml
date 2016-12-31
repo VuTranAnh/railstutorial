@@ -41,3 +41,15 @@ en:
     help:
       title: "Help"
       this_is_the_help_page: "This is the help page"
+  users:
+    new:
+      sign_up: "Sign up"
+    form:
+      create: "Create my account"
+      confirmation: "Confirmation"
+  flash:
+    success: "Welcome to the sample app"
+    danger: "The page you were looking for doesn't exist"
+  shared:
+    error_messages:
+      form_contain: "The form contains"
