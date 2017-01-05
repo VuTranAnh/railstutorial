@@ -47,14 +47,35 @@ en:
       title: "Help"
       this_is_the_help_page: "This is the help page"
   users:
+    index:
+      all_users: "All users"
+      delete: "Delete"
+      are_you_sure: "Are you sure?"
+      please_log_in: "Please log in"
     new:
       sign_up: "Sign up"
+      create: "Create my account"
     create:
       welcome_message: "Welcome to the Sample app"
     show:
       page_notfound: "The page you were looking for doesn't exsist"
+    edit:
+      edit: "Edit"
+      page_notfound: "The page you were looking for doesn't exsist"
+      save_changes: "Save changes"
+      change: "Change"
+      please_log_in: "Please log in"
+      not_the_right_user: "Cannot edit/update other users"
+    update:
+      profile_updated: "Profile updated"
+      please_log_in: "Please log in"
+      not_the_right_user: "Cannot edit/update other users"
+    destroy:
+      user_deleted: "User deleted."
+      cannot_delete: "Can not delete user"
+      please_log_in: "Please log in"
+      must_be_admin: "You must be admin to do that"
     form:
-      create: "Create my account"
       confirmation: "Confirmation"
   shared:
     error_messages:
