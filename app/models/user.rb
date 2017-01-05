@@ -7,11 +7,12 @@ class User < ApplicationRecord
 
   has_many :microposts
 
-  validates :name, presence: true, length: {maximum: Settings.max_name}
+  validates :name, presence: true, length: {maximum: Settings.max_name_length}
   validates :email, format: {with: VALID_EMAIL_REGEX}
   validates :email, presence: true, length: {maximum: Settings.max_email}
   validates :email, uniqueness: {case_sensitive: false}
-  validates :password, presence: true, length: {minimum: Settings.min_pass}
+  validates :password, presence: true, length: {minimum: Settings.min_pass},
+    allow_nil: true
 
   before_save {self.email = email.downcase}
 

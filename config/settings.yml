@@ -1,3 +1,6 @@
-max_name: 50
+max_name_length: 50
 max_email: 255
 min_pass: 6
+per_page: 30
+avatar_size: 50
+default_size: 80

@@ -1,29 +1,19 @@
-<p id="notice"><%= notice %></p>
+<% provide :title, t(".all_users") %>
+<h1><%= t ".all_users"%></h1>
 
-<h1>Users</h1>
+<%= will_paginate %>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Email</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<ul class="users">
+  <% @users.each do |user| %>
+    <li>
+      <%= gravatar_for user, size: Settings.avatar_size %>
+      <%= link_to user.name, user %>
+      <% if current_user.admin? && current_user != user %>
+        | <%= link_to t(".delete"), user, method: :delete,
+          data: {confirm: t(".are_you_sure")} %>
+      <% end %>
+    </li>
+  <% end %>
+</ul>
 
-  <tbody>
-    <% @users.each do |user| %>
-      <tr>
-        <td><%= user.name %></td>
-        <td><%= user.email %></td>
-        <td><%= link_to 'Show', user %></td>
-        <td><%= link_to 'Edit', edit_user_path(user) %></td>
-        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New User', new_user_path %>
+<%= will_paginate %>
