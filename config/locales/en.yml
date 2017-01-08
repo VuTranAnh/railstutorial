@@ -56,7 +56,7 @@ en:
       sign_up: "Sign up"
       create: "Create my account"
     create:
-      welcome_message: "Welcome to the Sample app"
+      check_email_message: "Please check your email to activate your account"
     show:
       page_notfound: "The page you were looking for doesn't exsist"
     edit:
@@ -88,5 +88,18 @@ en:
       remember_me: "Remember me on this computer"
     create:
       invalid_login: "Invalid email/password combination"
+      account_not_activated: "Account not activated. Check your email for the
+        activation link"
     destroy:
       logout_success: "You have been logged out successfully"
+  user_mailer:
+    account_activation:
+      hi: "Hi"
+      activation_link_message: "Welcome to the Sample app, please clink on the
+        link below to activate your account"
+      activate: "Activate"
+      activation: "Account activation"
+  account_activations:
+    edit:
+      account_activated: "Account activated!"
+      invalid_activation: "Invalid activation link"
