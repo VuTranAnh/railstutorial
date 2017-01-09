@@ -86,6 +86,7 @@ en:
       new_user: "New user?"
       sign_up: "Sign up now!"
       remember_me: "Remember me on this computer"
+      forgot_password: "(forgot password)"
     create:
       invalid_login: "Invalid email/password combination"
       account_not_activated: "Account not activated. Check your email for the
@@ -99,7 +100,29 @@ en:
         link below to activate your account"
       activate: "Activate"
       activation: "Account activation"
+    password_reset:
+      password_reset: "Password reset"
+      to_reset_password: "To reset your password click the link below:"
+      expire_message: "This link will expire in two hours."
+      if_you_did_not_request: "If you did not request your password to be reset,
+        please ignore this email and your password will stay as it is."
   account_activations:
     edit:
       account_activated: "Account activated!"
       invalid_activation: "Invalid activation link"
+  password_resets:
+    new:
+      forgot_password: "Forgot password"
+      submit: "Submit"
+    create:
+      email_notfound: "Email address not found"
+      reset_email_message: "Email sent with password reset instructions"
+    edit:
+      reset_password: "Reset password"
+      confirmation: "Confirmation"
+      update_password: "Update password"
+      password_expired: "Password reset has expired."
+    update:
+      cant_empty: "cant be empty"
+      password_has_been_reset: "Password has been reset"
+      password_expired: "Password reset has expired."
