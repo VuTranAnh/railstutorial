@@ -6,3 +6,5 @@ avatar_size: 50
 default_size: 80
 mailer: "noreply@example.com"
 expired_time: 2
+posts_per_page: 15
+picture_max_size: 5

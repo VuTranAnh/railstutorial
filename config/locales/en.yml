@@ -33,6 +33,7 @@ en:
   about: "About"
   contact: "Contact"
   news: "News"
+  maximum_size_message: "should be less than 5MB"
   static_pages:
     about:
       title: "About"
@@ -43,6 +44,7 @@ en:
       this_is_the_home_page: "This is the homepage for the Ruby on Rails Sample app"
       sign_up_now: "Sign Up Now!"
       rails_logo: "Rails Logo"
+      micropost_feed: "Micropost feed"
     help:
       title: "Help"
       this_is_the_help_page: "This is the help page"
@@ -59,6 +61,7 @@ en:
       check_email_message: "Please check your email to activate your account"
     show:
       page_notfound: "The page you were looking for doesn't exsist"
+      microposts: "Microposts"
     edit:
       edit: "Edit"
       page_notfound: "The page you were looking for doesn't exsist"
@@ -80,6 +83,14 @@ en:
   shared:
     error_messages:
       form_contain: "The form contains"
+    user_info:
+      view_profile: "View my profile"
+      micropost:
+        one: "1 micropost"
+        other: "%{count} microposts"
+    micropost_form:
+      compose_new_post: "Compose new micropost..."
+      post: "Post"
   sessions:
     new:
       title: "Log in"
@@ -126,3 +137,14 @@ en:
       cant_empty: "cant be empty"
       password_has_been_reset: "Password has been reset"
       password_expired: "Password reset has expired."
+  microposts:
+    micropost:
+      content: "%{content}"
+      posted_time_ago: "Posted %{created_at} ago"
+      delete: "Delete"
+      are_you_sure: "Are you sure?"
+    create:
+      micropost_created: "Micropost created!"
+    destroy:
+      micropost_deleted: "Micropost deleted."
+      micropost_notfound: "Micropost not found"
