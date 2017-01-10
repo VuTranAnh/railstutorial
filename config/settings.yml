@@ -8,3 +8,4 @@ mailer: "noreply@example.com"
 expired_time: 2
 posts_per_page: 15
 picture_max_size: 5
+follow_per_page: 10

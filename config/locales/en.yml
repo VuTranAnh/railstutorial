@@ -80,6 +80,10 @@ en:
       must_be_admin: "You must be admin to do that"
     form:
       confirmation: "Confirmation"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
   shared:
     error_messages:
       form_contain: "The form contains"
@@ -91,6 +95,13 @@ en:
     micropost_form:
       compose_new_post: "Compose new micropost..."
       post: "Post"
+    stats:
+      following: "Following"
+      followers: "Followers"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
   sessions:
     new:
       title: "Log in"
