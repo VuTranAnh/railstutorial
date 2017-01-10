@@ -3,8 +3,10 @@ max_email: 255
 min_pass: 6
 per_page: 30
 avatar_size: 50
+follower_ava_size: 30
 default_size: 80
 mailer: "noreply@example.com"
 expired_time: 2
 posts_per_page: 15
 picture_max_size: 5
+follow_per_page: 10
