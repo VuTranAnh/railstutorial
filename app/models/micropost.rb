@@ -6,6 +6,9 @@ class Micropost < ApplicationRecord
   validates :content, presence: true
 
   scope :latest_order, -> {order created_at: :desc}
+  scope :followed_posts, -> following_ids, user_id do
+    where "user_id IN (#{following_ids}) OR user_id = user_id"
+  end
 
   mount_uploader :picture, PictureUploader
 

@@ -91,6 +91,18 @@ en:
     micropost_form:
       compose_new_post: "Compose new micropost..."
       post: "Post"
+    stats:
+      following: "Following"
+      followers: "Followers"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_profile: "View my profile"
+      microposts: "Microposts"
+      delete: "Delete"
+      are_you_sure: "Are you sure?"
   sessions:
     new:
       title: "Log in"
@@ -148,3 +160,12 @@ en:
     destroy:
       micropost_deleted: "Micropost deleted."
       micropost_notfound: "Micropost not found"
+  relationships:
+    create:
+      user_notfound: "User not found"
+    destroy:
+      relationship_notfound: "Relationships not found"
+  followers:
+    followers: "Followers"
+  following:
+    following: "Following"

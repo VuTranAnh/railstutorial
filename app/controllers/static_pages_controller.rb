@@ -2,7 +2,7 @@ class StaticPagesController < ApplicationController
   def home
     if logged_in?
       @micropost = current_user.microposts.build
-      @feed_items = current_user.feed.paginate page: params[:page],
+      @feed_items = current_user.feed.latest_order.paginate page: params[:page],
         per_page: Settings.posts_per_page
     end
   end
